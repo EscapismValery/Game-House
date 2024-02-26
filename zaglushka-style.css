@@ -1,0 +1,33 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+div {
+	height: 80vh;
+	text-align: center;
+}
+img {
+	height: 100%;
+}
+a {
+	display: inline-block;
+	font-family: OpenSans-Regular;
+	font-size: calc((100vw - 720px)/(1920 - 720) * (28 - 16) + 16px);
+	text-decoration: none;
+	color: #0F4A74;
+	border: 1px solid #0F4A74;
+	border-radius: 50px;
+	padding: 10px;
+	transition: 0.2s ease-in;
+}
+a:hover {
+	padding: 10px 30px;
+	transition: 0.2s ease-in;
+	font-size: calc((100vw - 720px)/(1920 - 720) * (24 - 14) + 14px);
+}
+a:active {
+	background: #0F4A74;
+	color: #fff;
+	transition: 0.05s ease;
+}

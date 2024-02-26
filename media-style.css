@@ -1,0 +1,101 @@
+@media screen and (max-width: 1540px) {
+	.wrapper {
+		padding: 0 calc(50vw - 612px);
+	}
+}
+@media screen and (max-width: 1441px) {
+	.wrapper {
+		padding: 0 calc(50vw - 512px);
+	}
+	.header	{
+		padding: 0 calc(50vw - 512px);
+	}
+	.header nav ul li {
+		padding: 52px 20px 10px;
+		letter-spacing: 2px;
+	}
+	.header nav ul li:hover {
+		padding: 42px 20px 10px;
+	}
+	.header .logo {
+		max-width: 230px;
+		margin-right: 20px;
+	}
+	.right-nav {
+		margin-right: 10px;
+	}
+	.right-nav div {
+		margin-left: 25px;
+	}
+	.right-nav div img {
+		height: 30px;
+	}
+	.right-nav div:last-child img {
+		height: 20px;
+	}
+	main {
+		margin-top: 90px;
+		padding-top: 80px;
+	}
+	.afisha {	
+		padding: 50px 35px;
+	}
+	.content {
+		margin-top: 25px;
+	}
+	.content nav {
+		padding: 45px 25px;
+	}
+	.content nav h4 {
+		margin:0 auto 15px 0;
+		padding:5px 0;
+		color: #A3A3A3;
+	}
+	.content nav button {
+		padding: 15px 0;
+	}
+	.content nav div {
+		height: 80px;
+	}
+	.content article {
+		margin-left: 25px;
+	}
+	.cardProduct:not(:last-child) {
+		margin-bottom: 30px;
+	}
+	.cardProduct .pometka {
+		right: 10px;
+		width: 38px;
+		height: 38px;
+	}
+	.cardProduct .pometka span {
+		line-height: 38px;
+	}
+	.descriptionProduct {
+		padding-left: 15px;
+	}
+	.priceProduct .active-price, .priceProduct .old-price, .priceProduct .none-price {
+		max-width: 120px;
+	}
+	.priceProduct .active-price {
+		margin: 40px 0 10px;
+		padding: 8px 0;
+	}
+	.priceProduct .none-price {
+		margin: 40px 0 10px;
+		padding: 8px 0;
+	}
+	footer {
+		margin-top: 20px;
+		padding: 20px calc(50vw - 512px) 50px;
+	}
+	footer .footerText {
+		max-width: 760px;
+	}
+	footer .footerText ul li {
+		padding: 0 15px;
+	}
+	footer .footerImg {
+		max-width: 180px;
+	}
+}
